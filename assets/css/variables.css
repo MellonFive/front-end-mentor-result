@@ -1,8 +1,13 @@
 :root {
-  --Light-red: hsla(0, 100%, 67%, 0.4);
-  --Orangey-yellow: hsla(39, 100%, 56%, 0.4);
-  --Green-teal: hsla(166, 100%, 37%, 0.4);
-  --Cobalt-blue: hsla(234, 85%, 45%, 0.4); 
+  --background-Light-red: hsla(0, 100%, 67%, 0.1);
+  --background-Orangey-yellow: hsla(39, 100%, 56%, 0.1);
+  --background-Green-teal: hsla(166, 100%, 37%, 0.1);
+  --background-Cobalt-blue: hsla(234, 85%, 45%, 0.1); 
+
+  --Light-red: hsla(0, 100%, 67%);
+  --Orangey-yellow: hsla(39, 100%, 56%);
+  --Green-teal: hsla(166, 100%, 37%);
+  --Cobalt-blue: hsla(234, 85%, 45%); 
   
   --Light-slate-blue-background: hsl(252, 100%, 67%);
   --Light-royal-blue-background: hsl(241, 81%, 54%);
