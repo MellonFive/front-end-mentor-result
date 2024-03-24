@@ -151,3 +151,21 @@ body {
   color: var(--Cobalt-blue);
   opacity: .6;
 }
+
+.card .summary .list .button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--White);
+  background-color: var(--Dark-gray-blue);
+  transition: .5s all;
+}
+
+.card .summary .list .button:hover {
+  background-color: var(--Light-royal-blue-background);
+}
