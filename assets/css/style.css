@@ -9,8 +9,6 @@ body {
   width: 100%;
   height: 100vh;
   margin: auto;
-  
-  /* box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.40); */
 }
 
 #container .card {
@@ -18,9 +16,9 @@ body {
   max-width: 60rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.30);
   place-items: center;
   border-radius: 2rem;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.30);
 }
 
 .card .result {
@@ -81,4 +79,75 @@ body {
   color: var(--Light-lavender);
   margin-top: 1rem;
   font-size: 1.5rem;
+}
+
+.card .summary {
+  width: 100%;
+  height: 100%;
+}
+
+.card .summary {
+  padding: 4rem 2rem;
+}
+
+.card .summary .title {
+  font-size: 2rem;
+  color: var(--Dark-gray-blue);
+}
+
+.card .summary .list {
+  margin-top: 1rem;
+}
+
+.card .summary .list .item {
+  margin-top: 1.5rem;
+  padding: 1.4rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .summary .list .item .name {
+  font-weight: bold;
+}
+
+.card .summary .list .item .name,
+.card .summary .list .item .score {
+  font-size: 1.7rem;
+}
+
+.card .summary .list .item.-reaction {
+  background-color: var(--background-Light-red);
+}
+
+.card .summary .list .item.-reaction .name .description {
+  color: var(--Light-red);
+  opacity: .6;
+}
+
+.card .summary .list .item.-memory {
+  background-color: var(--background-Orangey-yellow);
+}
+
+.card .summary .list .item.-memory .name .description {
+  color: var(--Orangey-yellow);
+  opacity: .6;
+}
+
+.card .summary .list .item.-verbal {
+  background-color: var(--background-Green-teal);
+}
+
+.card .summary .list .item.-verbal .name .description {
+  color: var(--Green-teal);
+  opacity: .6;
+}
+
+.card .summary .list .item.-visual {
+  background-color: var(--background-Cobalt-blue);
+}
+
+.card .summary .list .item.-visual .name .description {
+  color: var(--Cobalt-blue);
+  opacity: .6;
 }
