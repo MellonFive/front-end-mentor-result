@@ -39,10 +39,10 @@ body {
 }
 
 .result .score {
-  background: linear-gradient(var(--Violet-blue-circle) 25%, var(--Persian-blue-circle) 50%, var(--Light-royal-blue-background) 100%);
-
-  /* ANALISAR MELHOR */
-
+  background: linear-gradient(
+    var(--Violet-blue-circle) 50%, 
+    var(--Light-royal-blue-background) 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@ body {
   width: 15rem;
   height: 15rem;
   border-radius: 10rem;
-  /* box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.20); */
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.10);
 }
 
 .result .score .number {
