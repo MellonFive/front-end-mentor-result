@@ -2,7 +2,7 @@ body {
   background-color: var(--Pale-blue);
 }
 
-#container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@ body {
   margin: auto;
 }
 
-#container .card {
+.container .card {
   background-color: var(--White);
   max-width: 60rem;
   display: grid;
