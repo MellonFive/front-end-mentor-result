@@ -30,7 +30,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--White);
-  height: 100%;
+  height: 50%;
 }
 
 .result .title {
@@ -84,7 +84,7 @@ body {
 
 .card .summary {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 .card .summary {
