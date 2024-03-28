@@ -24,7 +24,7 @@ body {
 .card .result {
   background-color: var(--Light-royal-blue-background);
   border-radius: 2rem;
-  padding: 4rem;
+  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
