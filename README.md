@@ -24,7 +24,7 @@ Results summary component é uma página de resultados. Futuramente irei colocar
 ## Como ficou o projeto online
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/Preview.gif" width="100%">
+  <img alt="projeto DevLinks" src=".github/order.gif" width="100%">
 </p>
 
 <div align="center">
