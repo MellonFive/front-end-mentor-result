@@ -6,35 +6,47 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 100%;
   height: 100vh;
+
   margin: auto;
 }
 
 .container .card {
   background-color: var(--White);
-  max-width: 60rem;
+
+  max-width: 600px;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
+
   border-radius: 2rem;
+
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.30);
 }
 
 .card .result {
   background-color: var(--Light-royal-blue-background);
+
   border-radius: 2rem;
+  
   padding: 0 4rem;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   color: var(--White);
+  
   height: 100%;
 }
 
 .result .title {
   font-size: 2rem;
+
   color: var(--Pale-blue);
 }
 
@@ -43,42 +55,55 @@ body {
     var(--Violet-blue-circle) 50%, 
     var(--Light-royal-blue-background) 100%
   );
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   font-size: 1.5rem;
+
   margin-top: 3rem;
+
   width: 15rem;
   height: 15rem;
+
   border-radius: 10rem;
+
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.05);
 }
 
 .result .score .number {
   font-size: 6rem;
+
   font-weight: 600;
 }
 
 .result .score .max {
   font-size: 1.4rem;
+
   color: var(--Light-lavender);
 }
 
 .result .comentary {
   margin-top: 2rem;
+
   text-align: center;
 }
 
 .result .comentary .comentary-title {
   color: var(--White);
+  
   font-size: 2.5rem;
+  
   margin-top: 2rem;
 }
 
 .result .comentary .description {
   color: var(--Light-lavender);
+  
   margin-top: 1rem;
+  
   font-size: 1.5rem;
 }
 
@@ -93,6 +118,7 @@ body {
 
 .card .summary .title {
   font-size: 2rem;
+  
   color: var(--Dark-gray-blue);
 }
 
@@ -103,7 +129,9 @@ body {
 .card .summary .list .item {
   margin-top: 1.5rem;
   padding: 1.4rem 2rem;
+  
   border-radius: 1rem;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -132,6 +160,7 @@ body {
 
 .card .summary .list .item.-memory .name .description {
   color: var(--Orangey-yellow);
+  
   opacity: .6;
 }
 
@@ -141,6 +170,7 @@ body {
 
 .card .summary .list .item.-verbal .name .description {
   color: var(--Green-teal);
+  
   opacity: .6;
 }
 
@@ -150,20 +180,28 @@ body {
 
 .card .summary .list .item.-visual .name .description {
   color: var(--Cobalt-blue);
+  
   opacity: .6;
 }
 
 .card .summary .list .button {
   display: inline-block;
+  
   width: 100%;
+  
   text-align: center;
+  
   margin-top: 3rem;
   padding: 1.3rem;
+  
   border-radius: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
+  
   color: var(--White);
+  
   background-color: var(--Dark-gray-blue);
+  
   transition: .5s all;
 }
 
